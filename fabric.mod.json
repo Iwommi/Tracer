@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tracermod",
+  "version": "1.1.0",
+  "name": "Tracer Mod",
+  "description": "Simple and working animal/monster tracer mod",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.tracers.TracerModClient"
+    ],
+    "modmenu": [
+      "com.example.tracers.TracerModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
